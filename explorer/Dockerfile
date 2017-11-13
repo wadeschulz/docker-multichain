@@ -1,6 +1,7 @@
 FROM ubuntu:16.04
 
 RUN apt-get -qqy update && apt-get -qqy install \
+	git \
 	libsqlite3-dev \
 	python-dev \
 	python-pip \
